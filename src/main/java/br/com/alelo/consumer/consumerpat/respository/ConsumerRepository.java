@@ -20,4 +20,10 @@ public interface ConsumerRepository extends JpaRepository<Consumer, Integer> {
     @Query(nativeQuery = true, value = "select * from Consumer where DRUGSTORE_NUMBER = ? ")
     Consumer findByDrugstoreNumber(int cardNumber);
 
+    @Query(nativeQuery = true, value = "select * from Consumer where FOOD_CARD_NUMBER = ? OR FUEL_CARD_NUMBER = ? OR DRUGSTORE_NUMBER = ?")
+    Consumer findByAnyCardNumber(int cardNumber);
+
+
+
+
 }
