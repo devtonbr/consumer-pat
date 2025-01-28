@@ -1,4 +1,4 @@
-package br.com.alelo.consumer.consumerpat.usecase;
+package br.com.alelo.consumer.consumerpat.service;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.*;
@@ -12,7 +12,6 @@ import br.com.alelo.consumer.consumerpat.entity.Consumer;
 import br.com.alelo.consumer.consumerpat.entity.Extract;
 import br.com.alelo.consumer.consumerpat.respository.ConsumerRepository;
 import br.com.alelo.consumer.consumerpat.respository.ExtractRepository;
-import br.com.alelo.consumer.consumerpat.service.ConsumerUseCase;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 import java.util.Arrays;

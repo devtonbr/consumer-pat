@@ -1,7 +1,6 @@
-package br.com.alelo.consumer.consumerpat.usecase;
+package br.com.alelo.consumer.consumerpat.service;
 
 import br.com.alelo.consumer.consumerpat.entity.Consumer;
-import br.com.alelo.consumer.consumerpat.service.CardStrategyEnum;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
